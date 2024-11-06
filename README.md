@@ -62,7 +62,7 @@ The recommended approach is using `v-model:active` and it should contain **one s
 
 When `isActive` becomes `true`, it activates the focus trap. By default it sets
 the focus to its child, so make sure the element is a focusable element. If it's
-not you wil need to give it the `tabindex="-1"` attribute. You can also
+not you will need to give it the `tabindex="-1"` attribute. You can also
 customize the initial element focused. This element should be an element that
 the user can interact with. For example, an input. It's a good practice to
 always focus an interactable element instead of the modal container:
